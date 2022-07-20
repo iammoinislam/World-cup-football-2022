@@ -1,0 +1,475 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Josefin+Sans:ital,wght@0,100;0,600;1,100;1,400&family=Poppins:wght@500&display=swap');
+
+body {
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+.Button {
+
+    border: none;
+    background-color: #DD0000;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    height: 56px;
+    width: 187px;
+    display: flex;
+    line-height: 1.8;
+    border-radius: 10px;
+   
+    
+
+
+}
+
+/* TopBanner--------------
+-------------------------- */
+
+
+
+.frst-Banner {
+
+    display: flex;
+    height: 646px;
+    width: 90%;
+
+}
+
+#Top {
+    background-color:#161616;
+    margin-left: 5%;
+    right: 5%;
+    border-radius: 20px;
+    margin-top: 40px;
+
+    margin-bottom: 120px;
+}
+
+#Middle {
+    margin-left: 50px;
+
+}
+
+.top-info {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-left: 70px;
+    padding-top: 80px;
+    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;;
+
+}
+.top-info span{
+    color: #DD0000;
+}
+.top-info p{
+    letter-spacing: 1px;
+    
+}
+
+.top-info button:hover {
+    background-color:#DD0000;
+    transition: 1s;
+    box-shadow: 2px 1px 30px 1px #DD0000;
+    border: solid #DD0000 1px;
+    color: aliceblue;
+    width: 200px;
+}
+
+
+.top-info h1 {
+    font-size: 65px;
+
+}
+
+.top-image {
+    width: 50%;
+}
+
+.top-image img {
+    height: 100%;
+}
+
+.fa-greater-than {
+    font-size: 20px;
+    padding-top: 4px;
+
+}
+
+
+/* Middle-banner --------------
+-------------------------------*/
+#Middle {
+    width: 100%;
+    height: fit-content;
+    gap: 10px;
+    
+
+}
+
+.Middle-Buttons {
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.Middle-Right {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: -10px;
+   
+   
+
+}
+
+.Middle-Box {
+    height: 320px;
+    width: 280px;
+    background-color:transparent;
+    border-radius: 4%;
+    margin: 9px;
+    border: 1px solid darkgray;
+
+}
+
+#blog {
+    background-color: #DD0000;
+}
+
+/* Button */
+.middlebutton button {
+    color: black;
+    height: 60px;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.middlebutton {
+
+    background-color:#161616;
+    height: 280px;
+    width: 280px;
+    border-radius: 4%;
+    align-items: center;
+    text-decoration: none;
+    position: sticky;
+    top: 0px;
+}
+
+.middlebutton button a {
+    text-decoration: none;
+    color: black;
+}
+
+/* end */
+.Middle-Box button {
+    display: block;
+    height: 30px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    cursor: pointer;
+    border: solid rgb(43, 42, 42) .4px;
+    padding-left: 15px;
+    margin-left: 15px;
+
+
+}
+
+.Middle-Box img {
+    height: 50%;
+    width: 100%;
+    border-radius: 4%;
+}
+
+.Middle-Box p {
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.Bottom-Info {
+    margin-left: 50px;
+}
+
+i {
+    margin-left: 15px;
+}
+
+/* Upcoming-matches---------- */
+.png {
+    width: 92px;
+    height: 56px;
+}
+
+.vs {
+    font-size: 20px;
+    position: relative;
+    bottom: 18px;
+}
+.matches h4{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+.matches p{
+    font-size: 15px;
+   color: #4D4D4D;
+}
+
+.matches {
+    height: 240px;
+    width: 280px;
+    background-color: transparent;
+    border-radius: 4%;
+    margin: 9px;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 70px;
+    border: 1px  solid darkgray;
+    
+    
+}
+
+/* Buttun-View-All --------*/
+.Button-ViewAll {
+    background-color: #DD0000;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: 0px;
+    right: 45%;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* footers -------------*/
+.footers {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+    position: relative;
+    top: 120px;
+    text-align: center;
+    padding-top: 10%;
+
+}
+
+.footers hr {
+    width: 80%;
+
+
+}
+
+.footers h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.footers li {
+    list-style: none;
+    padding-right: 30px;
+    color:#4D4D4D;
+}
+
+.footers ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footers h2 {
+    color: aliceblue;
+}
+
+
+.footers i {
+    color: lightgray;
+    justify-content: center;
+    font-size: 23px;
+    align-items: center;
+}
+.ftgoal{
+    color: #DD0000;
+}
+.footers .link{
+    color: #DD0000;
+}
+
+
+
+
+/* Risponsive-------- */
+/* Mobile Device */
+@media only screen and (max-width:688px) {
+
+    /* Topbanner */
+    .frst-Banner {
+
+
+        display: block;
+        height: fit-content;
+        margin: 0%;
+        height: 944px;
+       
+
+    }
+
+    .top-info {
+        width: 50%;
+        align-items: center;
+        padding-left: 22%;
+    }
+
+    .top-image {
+        width: 50%;
+        padding-left: 20%;
+        
+       
+    }
+
+    .top-image img {
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        
+      
+    }
+
+    .top-info h1 {
+        font-size: 35px;
+    }
+
+    /* MiddleBanner */
+
+    .Middle-Right {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        right: 100px;
+
+    }
+
+    .Button-ViewAll {
+        display: none;
+    }
+
+    .middlebutton {
+        display: flex;
+        height: 120px;
+        width: 100%;
+        position: relative;
+        right: 50px;
+        background-color: transparent;
+        
+    }
+
+    .middlebutton button {
+        position: relative;
+        top: 3px;
+        left: 2px;
+        border: 1px solid #4D4D4D;
+        
+    }
+
+    .footers ul {
+        display: block;
+    }
+
+    .footers {
+        max-width: 688px;
+        height: fit-content;
+    }
+   
+}
+
+/* Pad-Device ---------------------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .Top {
+        height: 100%;
+        width: 100%;
+    }
+
+    .top-info {
+        width: 50%
+    }
+
+    .top-info h1 {
+        font-size: 45px;
+
+    }
+
+    .top-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .middlebutton {
+        display: flex;
+        height: 120px;
+        width: 100%;
+        position: relative;
+        right: 50px;
+        padding-left: 15%;
+        padding-right: 20%;
+    }
+
+    .middlebutton button {
+        position: relative;
+        top: 3px;
+        left: 2px;
+    }
+
+    #Middle {
+        display: block;
+    }
+
+    .Middle-Right {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 8%;
+
+    }
+
+    #Box-9 {
+        display: none;
+    }
+
+    .Button-ViewAll {
+        position: relative;
+        left: 75%;
+    }
+
+}
+
+@media only screen and (min-width:993px) {
+    .Button-ViewAll {
+        display: none;
+    }
+}
+
+         
+        
+    
+
+    
